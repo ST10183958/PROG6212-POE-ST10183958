@@ -1,0 +1,44 @@
+@model IEnumerable<PROG6212.Models.Claim>
+
+@{
+    ViewBag.Title = "Manage Claims";
+}
+
+<h2>Manage Claims</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Lecture Name</th>
+        <th>Lecture Surname</th>
+        <th>Subject Name</th>
+        <th>Lecturer Email</th>
+        <th>Subject Code</th>
+        <th>Campus Location</th>
+        <th>Hours Worked</th>
+        <th>Message</th>
+        <th>button</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var claim in Model)
+    {
+        <tr>
+            <td>@claim.Id</td>
+            <td>@claim.LectureName</td>
+            <td>@claim.LectureSurname</td>
+            <td>@claim.SubjectName</td>
+            <td>@claim.LecturerEmail</td>
+            <td>@claim.SubjectCode</td>
+            <td>@claim.CampusLocation</td>
+            <td>@claim.HoursWorked</td>
+            <td>@claim.Message</td>
+            <td>
+                <a class="btn btn-primary btn-sm" asp-controller="ViewClaims" asp-action="ClaimView"
+                   asp-route-id="@claim.Id">Manage</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
