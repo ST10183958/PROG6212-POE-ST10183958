@@ -94,3 +94,4 @@
 /home/shinzo/RiderProjects/PROG6212/PROG6212/obj/Debug/net9.0/PROG6212.pdb
 /home/shinzo/RiderProjects/PROG6212/PROG6212/obj/Debug/net9.0/PROG6212.genruntimeconfig.cache
 /home/shinzo/RiderProjects/PROG6212/PROG6212/obj/Debug/net9.0/ref/PROG6212.dll
+/home/shinzo/RiderProjects/PROG6212/PROG6212/obj/Debug/net9.0/PROG6212.sourcelink.json

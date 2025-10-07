@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NsYWltcy9DbGFpbUxpc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/shinzo/RiderProjects/PROG6212/PROG6212/Views/ViewClaims/ClaimView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmlld0NsYWltcy9DbGFpbVZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/shinzo/RiderProjects/PROG6212/PROG6212/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
